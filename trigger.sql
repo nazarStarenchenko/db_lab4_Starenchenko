@@ -1,3 +1,4 @@
+--ця функція та триггер додають до імені гравця приставку Mr.
 CREATE OR REPLACE FUNCTION add_mr() RETURNS trigger AS
 $$
      BEGIN
